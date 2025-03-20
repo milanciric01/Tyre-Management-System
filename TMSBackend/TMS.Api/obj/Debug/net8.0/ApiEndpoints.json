@@ -1,0 +1,182 @@
+[
+  {
+    "ContainingType": "TMS.Api.Controllers.AuthenticationController",
+    "Method": "Login",
+    "RelativePath": "api/authentification/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "loginDTO",
+        "Type": "TMS.Data.DTO.LoginDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TMS.Api.Controllers.BussinesUnitController",
+    "Method": "GetProductionByDay",
+    "RelativePath": "api/bussines-unit/production-reports-day",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TMS.Api.Controllers.BussinesUnitController",
+    "Method": "GetProductionByMachine",
+    "RelativePath": "api/bussines-unit/production-reports-machine",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TMS.Api.Controllers.BussinesUnitController",
+    "Method": "GetProductionByOperatorId",
+    "RelativePath": "api/bussines-unit/production-reports-operator",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TMS.Api.Controllers.BussinesUnitController",
+    "Method": "GetProductionByShift",
+    "RelativePath": "api/bussines-unit/production-reports-shift",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TMS.Api.Controllers.BussinesUnitController",
+    "Method": "GetProductionByStockBalance",
+    "RelativePath": "api/bussines-unit/production-reports-stockbalance",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TMS.Api.Controllers.ProductionController",
+    "Method": "CreateProductionRecord",
+    "RelativePath": "api/controller/createRecord",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "productionDTO",
+        "Type": "TMS.Data.DTO.ProductionDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TMS.Api.Controllers.ProductionController",
+    "Method": "GetHistory",
+    "RelativePath": "api/controller/history/{operatorId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "operatorId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TMS.Api.Controllers.SupervisorController",
+    "Method": "GetAllHistoryAsync",
+    "RelativePath": "api/supervisor/all-history",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TMS.Api.Controllers.SupervisorController",
+    "Method": "RegisterTyreSale",
+    "RelativePath": "api/supervisor/register-sale",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "tyreSalesDTO",
+        "Type": "TMS.Data.DTO.TyreSalesDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TMS.Api.Controllers.SupervisorController",
+    "Method": "GetTyreSalesHistory",
+    "RelativePath": "api/supervisor/supervisor-history",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TMS.Api.Controllers.SupervisorController",
+    "Method": "UpdateProductionRecords",
+    "RelativePath": "api/supervisor/update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "TyreCode",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Quantity",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "ProductionDate",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      },
+      {
+        "Name": "ProductionShift",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "MachineNumber",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "PerformedById",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
