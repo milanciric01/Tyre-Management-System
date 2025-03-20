@@ -1,0 +1,1 @@
+Tyre Management System (TMS) je aplikacija koja se koristi za praćenje i upravljanje proizvodnjom guma. Njena svrha je omogućiti registrovanje podataka o proizvodnji i prodaji guma, kao i generisanje izveštaja o proizvodnji i stanju zaliha.
